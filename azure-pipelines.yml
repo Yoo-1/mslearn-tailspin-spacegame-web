@@ -8,7 +8,7 @@ trigger:
 
 pool:
   # vmImage: 'windows-latest'
-  name: AhmetPool
+  name: AhmetLinuxPool
 
 variables:
   solution: '**/*.sln'
