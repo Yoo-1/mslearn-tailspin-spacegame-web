@@ -9,8 +9,6 @@ trigger:
 pool:
   # vmImage: 'windows-latest'
   name: 'AhmetPool'
-  demands:
-  - agent.name -equals AhmetinVMi
 
 variables:
   solution: '**/*.sln'
